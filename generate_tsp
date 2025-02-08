@@ -1,0 +1,22 @@
+import random 
+class Node:
+    def __init__(self):
+        self.connected_weights = []
+    def add_weight(self, next_node, weight= random.randint(1, 20)):
+        self.connected_weight[next_node] = weight
+    def get_weight(self):
+        return self.connected_weights
+    
+class CreateGraph:
+    def __init__(self, num_nodes):
+        self.num_nodes = num_nodes
+        self.node_count = []
+        self.minimum_path = []
+        self.minimum_value = 0
+        self.createNodes()
+    def createNodes(self):
+        for i in range(self.num_nodes):
+            
+            
+
+    
